@@ -23,7 +23,7 @@ which will run install grunt and run `grunt heroku`.
    ```json
    {
      "dependencies": {
-       "grunt": "latest"
+       "grunt": "latest",
        "grunt-cli": "latest"
      }
    }
