@@ -1,4 +1,4 @@
-# Heroku Buildpack Grun
+# Heroku Buildpack Grunt
 
 A simple buildpack, designed to run with the [multi buildpack](https://github.com/ddollar/heroku-buildpack-multi),
 which will run install grunt and run `grunt heroku`.
@@ -27,4 +27,10 @@ which will run install grunt and run `grunt heroku`.
        "grunt-cli": "latest"
      }
    }
+   ```
+
+4. Ensure that you have a `heroku` grunt task:
+
+   ```js
+   grunt.registerTask('heroku', ['build']);
    ```
