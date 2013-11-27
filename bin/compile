@@ -5,4 +5,4 @@ CACHE_DIR=$2
 
 cd $BUILD_DIR
 
-PATH="$BUILD_DIR/bin:$BUILD_DIR/node_modules/.bin:$PATH" grunt heroku
+PATH="$BUILD_DIR/vendor/node/bin:$BUILD_DIR/bin:$BUILD_DIR/node_modules/.bin:$PATH" grunt heroku
