@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -f $1/component]; then
+if [ -f $1/component.json ]; then
   echo "Component.io buildpack"
 else
   echo "No component.json"
