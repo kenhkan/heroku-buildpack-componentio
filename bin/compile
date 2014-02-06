@@ -5,8 +5,5 @@ CACHE_DIR=$2
 
 cd $BUILD_DIR
 
-echo $1
-echo $2
-pwd
-npm install component
-node_modules/.bin/component install
+npm install -g component
+component install
