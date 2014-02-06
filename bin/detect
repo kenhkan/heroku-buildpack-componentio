@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-if [ -f $1/bower.json ]; then
-  echo "Bower buildpack"
+if [ -f $1/component]; then
+  echo "Component.io buildpack"
 else
-  echo "No bower.json"
+  echo "No component.json"
   exit 1
 fi
