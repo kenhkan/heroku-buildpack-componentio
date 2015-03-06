@@ -5,5 +5,5 @@ CACHE_DIR=$2
 
 cd $BUILD_DIR
 
-PATH="$BUILD_DIR/vendor/node/bin:$BUILD_DIR/bin:$BUILD_DIR/node_modules/.bin:$PATH" npm install -g component
+PATH="$BUILD_DIR/vendor/node/bin:$BUILD_DIR/bin:$BUILD_DIR/node_modules/.bin:$PATH" npm install -g component@0.19.8
 PATH="$BUILD_DIR/vendor/node/bin:$BUILD_DIR/bin:$BUILD_DIR/node_modules/.bin:$PATH" component install
